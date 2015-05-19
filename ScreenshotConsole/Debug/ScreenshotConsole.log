@@ -1,0 +1,37 @@
+﻿Build started 19.8.2014 23:31:09.
+     1>Project "C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\ScreenshotConsole\ScreenshotConsole.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\admin\Documents\Visual Studio 2013\Projects\ScreenshotConsole\libcurl\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ScreenshotConsole.cpp
+         ScreenshotConsole.cpp
+     1>c:\users\admin\documents\visual studio 2013\projects\screenshotconsole\screenshotconsole\screenshotconsole.cpp(122): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575) : see declaration of 'wcstombs'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\Debug\ScreenshotConsole.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\admin\Documents\Visual Studio 2013\Projects\ScreenshotConsole\libcurl\lib\Debug" curllib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\Debug\ScreenshotConsole.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\Debug\ScreenshotConsole.lib" /MACHINE:X86 Debug\ScreenshotConsole.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __free_dbg referenced in function __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>ScreenshotConsole.obj : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __calloc_dbg referenced in function __Getctype
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __malloc_dbg referenced in function "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+     1>C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\Debug\ScreenshotConsole.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\admin\documents\visual studio 2013\Projects\ScreenshotConsole\ScreenshotConsole\ScreenshotConsole.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.95
